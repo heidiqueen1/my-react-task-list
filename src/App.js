@@ -3,6 +3,7 @@ import './App.css';
 import HeaderComponent from './components/HeaderComponent';
 import TaskList from './components/TaskList';
 
+
 function App() {
   return (
     <div className="App">
@@ -11,9 +12,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />  
       </header>
       <main>
-        <TaskList/>
+        <TaskList/>  
       </main>
     </div>
+    
   );
 }
 
