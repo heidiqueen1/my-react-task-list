@@ -1,0 +1,17 @@
+.contenedor-principal {
+    background-color: rgb(202, 43, 226);
+    margin: 25px;
+    padding: 15px;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/ 9%);
+}
+
+
+.contenedor-listado {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman';
+    font-weight: 400;
+    line-height: 1.5rem;
+}

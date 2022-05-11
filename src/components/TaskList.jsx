@@ -1,14 +1,15 @@
 import Task from "./Task";
+import '../hojas-de-estilo/TaskList.css';
 
 function TaskList(){
-    return <div>
-        <ul>
-            <li><Task task="Hacer desayuno y almuerzo"></Task></li>
-            <li><Task task="Ajustar la casa"></Task></li>
-            <li><Task task="Empezar mis labores de voluntariado social"></Task></li>
-            <li><Task task="Estudiar Dev 2 hrs"></Task></li>
-            <li><Task task="Testing 2 hrs"></Task></li>
-        </ul>
+    const tareas = [ "Higiene personal","Meditación matutina","Tender la cama","Hacer el almuerzo"]
+    return <div  className="">
+        {tareas.map(task =>{
+            <Task
+            tarea={task}
+            />
+        })
+    }
     </div>;
 }
 export default TaskList;
