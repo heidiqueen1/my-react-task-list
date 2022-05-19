@@ -17,7 +17,11 @@
   font-family:Georgia, 'Times New Roman';
 }
 
-.Tareas {
+.Lista-Tareas {
+  background-color: aliceblue;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 12px;
+  ;
 }
+

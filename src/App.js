@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       <HeaderComponent/>
       </header>
-      <main>
+      <main className= 'Lista-Tareas'>
         <TaskList/>  
       </main>
     </div>
